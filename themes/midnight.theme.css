@@ -76,9 +76,9 @@ body {
     --text-0: var(--bg-4); /* text on colored elements */
     --text-1: hsl(220, 45%, 95%); /* other normally white text */
     --text-2: hsl(220, 25%, 70%); /* headings and important text */
-    --text-3: hsl(220, 20%, 60%); /* normal text */
-    --text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
-    --text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
+    --text-3: rgb(218, 218, 218); /* normal text */
+    --text-4: hsl(0, 0%, 55%); /* icon buttons and channels */
+    --text-5: hsl(220, 2%, 36%); /* muted channels/chats and timestamps */
 
     /* background and dark colors */
     --bg-1: hsla(220, 15%, 20%, 1); /* dark buttons when clicked */
