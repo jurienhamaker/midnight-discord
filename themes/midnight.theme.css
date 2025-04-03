@@ -82,20 +82,20 @@ body {
 
     /* background and dark colors */
     --bg-1: hsla(220, 15%, 20%, 1); /* dark buttons when clicked */
-    --bg-2: hsla(220, 15%, 16%, 1); /* dark buttons */
-    --bg-3: hsla(220, 15%, 13%, 1); /* spacing, secondary elements */
-    --bg-4: black; /* main background color */
+    --bg-2: rgb(31, 31, 31); /* dark buttons */
+    --bg-3: rgb(14, 14, 14); /* spacing, secondary elements */
+    --bg-4: rgb(0, 0, 0); /* main background color */
     --hover: hsla(221, 19%, 40%, 0.1); /* channels and buttons when hovered */
     --active: hsla(220, 19%, 40%, 0.2); /* channels and buttons when clicked or selected */
     --active-2: hsla(220, 19%, 40%, 0.3); /* extra state for transparent buttons */
     --message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
 
     /* accent colors */
-    --accent-1: var(--blue-1); /* links and other accent text */
-    --accent-2: var(--blue-2); /* small accent elements */
-    --accent-3: var(--blue-3); /* accent buttons */
-    --accent-4: var(--blue-4); /* accent buttons when hovered */
-    --accent-5: var(--blue-5); /* accent buttons when clicked */
+    --accent-1: rgb(161, 8, 199); /* links and other accent text */
+    --accent-2: rgb(116, 7, 143); /* small accent elements */
+    --accent-3: rgb(102, 6, 126); /* accent buttons */
+    --accent-4: rgb(136, 5, 168); /* accent buttons when hovered */
+    --accent-5: rgb(87, 0, 109); /* accent buttons when clicked */
     --accent-new: var(--accent-2); /* stuff that's normally red like mute/deafen buttons */
     --mention: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 90%) 40%, transparent); /* background of messages that mention you */
     --mention-hover: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 95%) 40%, transparent); /* background of messages that mention you when hovered */
@@ -103,10 +103,10 @@ body {
     --reply-hover: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 95%) 40%, transparent); /* background of messages that reply to you when hovered */
 
     /* status indicator colors */
-    --online: var(--green-2); /* change to #43a25a for default */
-    --dnd: var(--red-2); /* change to #d83a42 for default */
-    --idle: var(--yellow-2); /* change to #ca9654 for default */
-    --streaming: var(--purple-2); /* change to #593695 for default */
+    --online: rgb(161, 8, 199); /* change to #43a25a for default */
+    --dnd: rgb(199, 8, 49); /* change to #d83a42 for default */
+    --idle: rgb(199, 186, 8); /* change to #ca9654 for default */
+    --streaming: rgb(8, 113, 199); /* change to #593695 for default */
     --offline: var(--text-4); /* change to #83838b for default offline color */
 
     /* border colors */
