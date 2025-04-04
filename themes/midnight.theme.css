@@ -73,7 +73,7 @@ body {
     --colors: on; /* turn off to use discord default colors */
 
     /* text colors */
-    --text-0: var(--bg-4); /* text on colored elements */
+    --text-0: rgb(218, 218, 218); /* text on colored elements */
     --text-1: hsl(220, 45%, 95%); /* other normally white text */
     --text-2: hsl(220, 25%, 70%); /* headings and important text */
     --text-3: rgb(218, 218, 218); /* normal text */
